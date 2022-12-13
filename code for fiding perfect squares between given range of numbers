@@ -1,0 +1,6 @@
+import math
+x=int(input())
+for i in range(x):
+    c=math.sqrt(i)
+    if(c-math.floor(c))==0:
+        print(i)
